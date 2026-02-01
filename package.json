@@ -4,10 +4,10 @@
   "license": "MIT",
   "author": "angular-templates.io",
   "description": "This project is part of the tutorial: Learn how to build a MEAN stack application. The goal of this tutorial is to guide you through the coding of a full-stack JavaScript example application project and connecting a backend API to an Angular 5 front-end application employing the MEAN stack.",
-  "main": "server/server.js",
+  "main": "./server/server.js",
   "scripts": {
     "lint": "eslint .",
-    "start": "node .",
+    "start": "node ./server/server.js",
     "posttest": "npm run lint && nsp check"
   },
   "dependencies": {
